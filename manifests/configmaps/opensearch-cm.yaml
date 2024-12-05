@@ -4,6 +4,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: otel-demo-opensearch-config
+  namespace: otel-demo
   labels:
     app.kubernetes.io/name: opensearch
     app.kubernetes.io/instance: opentelemetry-demo

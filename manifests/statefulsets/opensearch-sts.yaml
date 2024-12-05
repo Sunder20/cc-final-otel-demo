@@ -4,6 +4,7 @@ apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   name: otel-demo-opensearch
+  namespace: otel-demo
   labels:
     app.kubernetes.io/name: opensearch
     app.kubernetes.io/instance: opentelemetry-demo

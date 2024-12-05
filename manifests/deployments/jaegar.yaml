@@ -4,6 +4,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: opentelemetry-demo-jaeger
+  namespace: otel-demo
   labels:
     app.kubernetes.io/name: jaeger
     app.kubernetes.io/instance: opentelemetry-demo
